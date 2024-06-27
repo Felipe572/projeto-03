@@ -60,6 +60,10 @@ form {
     min-height: 300px;
 
     padding: 64px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
 }
 
 fieldset {
@@ -72,7 +76,7 @@ fieldset {
     gap: 24px;
 }
 
-fieldset > legend {
+fieldset > .fieldset-wrapper > legend {
     font-family: "Archivo", sans-serif;
     font-weight: 600;
     font-size: 24px;
