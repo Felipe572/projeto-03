@@ -127,10 +127,14 @@ fieldset > .fieldset-wrapper > legend {
     color: #c1bccc;
 }
 
+input:invalid {
+    border: 1px solid #ff1010;
+}
+
 .input-wrapper > textarea {
     padding: 0;
     height: 168px;
-}
+} 
 
 .input-wrapper > select {
     appearance: none;
